@@ -1,0 +1,37 @@
+section {
+   display: flex;
+   flex-wrap: wrap;
+   background-color: #211163;
+   position: relative;
+}
+.main-title{
+   width: 100%;
+   align-items: center;
+   text-align: center;
+   font-size: large;
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   font-size: xx-large;
+   justify-content: center;
+   text-align: center;
+}
+.name1 .name2{
+   width: 100%;
+   position: absolute;
+   z-index: 9999;
+}
+.hidden{
+   display: none;
+}
+.font1{
+   width: 100%;
+   position: absolute;
+   z-index: 9999;
+}
+.font2{
+   width: 100%;
+   position: absolute;
+   z-index: 9999;
+}
